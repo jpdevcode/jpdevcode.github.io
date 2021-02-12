@@ -76,6 +76,10 @@ header .logo img{
     cursor: pointer;
 }
 
+.menuToggle:focus{
+    outline: none;
+}
+
 
 @media screen and (max-width: 768px){
     .menuToggle{
@@ -203,6 +207,7 @@ span{
     width: 300px;
     border: 1px solid #487eb0;
     padding: .2rem;
+    margin-bottom: 2rem;
     border-radius: 10px;
 }
 
